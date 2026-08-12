@@ -2,6 +2,8 @@
 
 Personal portfolio website showcasing backend engineering experience, projects, and contact information.
 
+**Live site:** [https://mohan-sai-pujari-portfolio.vercel.app/](https://mohan-sai-pujari-portfolio.vercel.app/)
+
 ## Tech Stack
 
 - **Next.js 16** (App Router)
@@ -20,14 +22,12 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ## Deploy
 
-Deploy to [Vercel](https://vercel.com) by connecting this GitHub repository:
+Live at [https://mohan-sai-pujari-portfolio.vercel.app/](https://mohan-sai-pujari-portfolio.vercel.app/) via [Vercel](https://vercel.com).
 
-1. Push to GitHub
-2. Import the repo on Vercel
-3. Deploy — no environment variables required
+To redeploy after changes, push to GitHub — Vercel rebuilds automatically. No environment variables required.
 
 ## Customize
 
 - Edit content in `src/data/portfolio.ts`
-- Resume PDF is served from `public/resume.pdf`
+- Resume: Google Drive link in `resumeConfig`, with fallback at `public/Mohan Sai Pujari_CV.pdf`
 - Update social links in the data file if needed
