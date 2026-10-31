@@ -67,7 +67,7 @@ export default function About() {
               </div>
               <div className="flex justify-between border-b border-white/5 pb-2">
                 <span className="text-muted">Stack</span>
-                <span>Go · Java · Kafka</span>
+                <span>C# · .NET · Azure</span>
               </div>
               <div className="flex justify-between">
                 <span className="text-muted">Open to</span>

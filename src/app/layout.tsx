@@ -15,13 +15,14 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Mohan Sai Pujari | Backend Engineer",
   description:
-    "Backend Engineer with 4+ years building scalable distributed systems with Java, Go, Scala, and Python. Checkout platforms, IoT pipelines, and warehouse management at scale.",
+    "Backend Engineer with 4+ years building scalable distributed systems. SDE-2 at WEX Inc. on Health & Benefits platforms using C#, .NET, Kafka, MS SQL, Redis, Azure, and Python.",
   keywords: [
     "Mohan Sai Pujari",
     "Backend Engineer",
     "Java",
-    "Go",
-    "Scala",
+    "C#",
+    ".NET",
+    "Azure",
     "Distributed Systems",
     "Microservices",
     "Kafka",
@@ -30,7 +31,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Mohan Sai Pujari | Backend Engineer",
     description:
-      "Building scalable backend systems — Java, Go, Scala, Python, Kafka, and cloud-native architecture.",
+      "SDE-2 at WEX Inc. building Health & Benefits platforms — C#, .NET, Kafka, Azure, and Python.",
     type: "website",
     locale: "en_IN",
   },

@@ -1,16 +1,16 @@
 export const personal = {
   name: "Mohan Sai Pujari",
   firstName: "Mohan",
-  role: "Software Development Engineer",
+  role: "Software Development Engineer II",
   tagline: "Building scalable backend systems that power millions",
   summary:
-    "Backend Engineer with 4+ years of experience designing and building scalable, distributed systems using Java, Go, Scala, and Python. Experienced in microservices, cloud-native applications, real-time event-driven systems, ETL pipelines, inventory platforms, and high-volume data processing.",
+    "Backend Engineer with 4+ years of experience designing and building scalable, distributed systems using Java, C#, Go, Scala, and Python. Currently an SDE-2 at WEX Inc., building Health & Benefits platforms on .NET, Kafka, MS SQL, Redis, Azure, and Python. Experienced in microservices, cloud-native applications, real-time event-driven systems, ETL pipelines, and high-volume data processing.",
   email: "mohansai.pujari@gmail.com",
   phone: "+91 9703183308",
   location: "Bangalore, India",
   yearsOfExperience: "4+",
-  company: "Recro (BigBasket)",
-  domain: "Quick Commerce",
+  company: "WEX Inc.",
+  domain: "Health & Benefits",
   links: {
     github: "https://github.com/mohansai-pujari",
     linkedin: "https://linkedin.com/in/mohansai-pujari",
@@ -32,18 +32,31 @@ export const resumeConfig = {
 export const rotatingHighlights = [
   "4+ years of backend engineering experience",
   "Building scalable backend systems",
+  "Health & Benefits platforms at WEX",
   "Crafting distributed microservices",
-    "Quick Commerce & fulfillment platforms",
   "IoT pipelines processing millions of events",
 ];
 
 export const experience = [
   {
+    company: "WEX Inc.",
+    role: "Software Development Engineer II",
+    domain: "Health & Benefits",
+    location: "Bangalore, India",
+    period: "Sep 2026 — Present",
+    highlights: [
+      "Building backend systems for WEX's Health & Benefits platforms — supporting benefits administration, eligibility, and member-facing workflows at scale.",
+      "Working in a fintech environment on healthcare and benefits products, with a focus on reliability, data integrity, and production-grade services.",
+      "Designing and shipping distributed backend services using C#, .NET, Kafka, MS SQL, Redis, Azure, and Python.",
+    ],
+    tech: ["C#", ".NET", "Kafka", "MS SQL", "Redis", "Azure", "Python"],
+  },
+  {
     company: "Recro (BigBasket)",
     role: "Senior Software Engineer (Backend)",
     domain: "Quick Commerce",
     location: "Bangalore, India",
-    period: "Nov 2025 — Jul 2026",
+    period: "Nov 2025 — Aug 2026",
     highlights: [
       "Engineered backend services for BigBasket's high-scale Checkout Platform using Go, Java, Kafka, React.js, and Aerospike — checkout validations, fulfillment routing, and event-driven services.",
       "Implemented fraud controls for voucher abuse and fake account creation — device-ID tracking, rate limiting, and blocking to prevent abusive order patterns.",
@@ -73,22 +86,22 @@ export const experience = [
 export const skillCategories = [
   {
     title: "Languages",
-    skills: ["Java", "Scala", "Python", "Go", "SQL"],
+    skills: ["Java", "C#", "Scala", "Python", "Go", "SQL"],
     icon: "code",
   },
   {
     title: "Frameworks & Architecture",
-    skills: ["Spring Boot", "JPA", "Spark", "REST APIs", "Microservices", "Kafka", "Frappe"],
+    skills: [".NET", "Spring Boot", "JPA", "Spark", "REST APIs", "Microservices", "Kafka", "Frappe"],
     icon: "layers",
   },
   {
     title: "Databases & Caching",
-    skills: ["MySQL", "MariaDB", "MongoDB", "Cassandra", "Elasticsearch", "Redis", "Aerospike"],
+    skills: ["MS SQL", "MySQL", "MariaDB", "MongoDB", "Cassandra", "Elasticsearch", "Redis", "Aerospike"],
     icon: "database",
   },
   {
     title: "Cloud & DevOps",
-    skills: ["AWS", "Docker", "Kubernetes", "EC2", "S3", "RDS", "CloudWatch"],
+    skills: ["Azure", "AWS", "Docker", "Kubernetes", "EC2", "S3", "RDS", "CloudWatch"],
     icon: "cloud",
   },
   {
@@ -233,16 +246,16 @@ export const professionalAchievements = [
 ];
 
 export const experienceSkillBubbles = [
+  "C#",
+  ".NET",
   "Java",
   "Python",
-  "Scala",
-  "Go",
-  "Microservices",
   "Kafka",
-  "Distributed Systems",
-  "MySQL",
-  "NoSQL",
-  "AWS",
+  "Azure",
+  "MS SQL",
+  "Redis",
+  "Microservices",
+  "Go",
 ];
 
 export const stats = [
@@ -264,7 +277,7 @@ export const navLinks = [
 
 export const terminalCommands = [
   { cmd: "whoami", output: "mohan-sai-pujari" },
-  { cmd: "cat role.txt", output: "Senior Backend Engineer @ BigBasket" },
-  { cmd: "ls skills/", output: "java  go  scala  python  kafka  kubernetes" },
+  { cmd: "cat role.txt", output: "SDE-2 @ WEX Inc." },
+  { cmd: "ls skills/", output: "csharp  dotnet  kafka  mssql  redis  azure  python" },
   { cmd: "echo $PASSION", output: "Building systems that scale." },
 ];
